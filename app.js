@@ -9,4 +9,19 @@ do {
     alert(`Ok, my number is ${numran}`)
     } while(computer >= 16)
 
-} while((computer < 20) && (player ))
+    do {
+    var choosenum = prompt("Now, you choose a number.")
+    } while(player < 20)
+
+    if (choosenum < 16) 
+    {alert("Ok, now it's the computer's turn.") }
+
+} while((computer > 20) || (player > 20))
+
+if (player > 20) {
+    alert("Sorry, you lose!")
+}
+
+if (computer > 20) {
+    alert("Good job, you won!")
+}
