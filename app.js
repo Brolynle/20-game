@@ -6,15 +6,19 @@ do {
 
     do {
     var numran = Math.floor(Math.random() * 10)
-    alert(`Ok, my number is ${numran}`)
+    computer ++
+    alert(`Ok, my number is ${numran} and my total is ${computer}`)
     } while(computer >= 16)
 
     do {
-    var choosenum = prompt("Now, you choose a number.")
+    var drawnum = prompt("Do you want to draw a number? If so enter `y`")
+        if (drawnum = "y") {
+            var numran = Math.floor(Math.random() * 10)
+            player ++
+            alert(`Your number is ${numran} and your total is ${player}`)
+            break;
+    }
     } while(player < 20)
-
-    if (choosenum < 16) 
-    {alert("Ok, now it's the computer's turn.") }
 
 } while((computer > 20) || (player > 20))
 
