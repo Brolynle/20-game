@@ -6,9 +6,9 @@ do {
     do {
     var numran1 = Math.floor(Math.random() * 10)
     var computer = numran1
-    computer1 = computer + computer
+    computer1 = numran + numran
 
-    alert(`Ok, my number is ${numran1} and my total is ${numran1}`)
+    alert(`Ok, my number is ${numran1} and my total is ${computer1}`)
     } while(computer1 >= 16)
 
     do {
