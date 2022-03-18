@@ -7,7 +7,7 @@ alert("I'll go first.")
 
 do {
     do {
-    var numran1 = Math.floor(Math.random() * 10)
+    var numran1 = Math.floor(Math.random() * 10 + 1)
     alert(`Ok, my number is ${numran1}`)
     comtotal = numran1 + numran1 
     } while(comtotal >= 16)
@@ -15,7 +15,7 @@ do {
     do {
     var drawnum = prompt("Do you want to draw a number? If so enter `y`")
         if (drawnum = "y") {
-            var numran2 = Math.floor(Math.random() * 10)
+            var numran2 = Math.floor(Math.random() * 10 + 1)
             playtotal = numran2 + numran2
             alert(`Your number is ${numran2} and your total is ${playtotal}`)
     }
