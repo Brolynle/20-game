@@ -19,7 +19,7 @@ do {
             playtotal = numran2 + numran2
             alert(`Your number is ${numran2} and your total is ${playtotal}`)
     }
-    } while(player < 20)
+    } while(playtotal < 20)
 
     if (player > 20) {
         alert("Sorry, you lose!")
@@ -32,6 +32,14 @@ do {
     }
     
 } while((computer < 20) || (player < 20))
+
+if (player > computer) {
+    alert("Good job, you won!")
+}
+
+else {
+    alert("The computer won!")
+}
 
 
 
